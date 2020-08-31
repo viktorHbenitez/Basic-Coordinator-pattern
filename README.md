@@ -1,6 +1,23 @@
-# Basic-Coordinator-pattern
+# Coordinator-pattern
 How to use the coordinator pattern in iOS apps
 
+## Advanced Coordinator Pattern
+
+1. Using child coordinators
+2. Navigation backwards 
+3. Passing data between controllers
+4. Coordinated tab bar controllers
+5. Handling segues
+6. Protocols and segues
+
+[Hacking with swift] (https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)  
+
+
+
+### 1. Child Coordinators 
+
+
+## Version 1 - Basic Coordinator Pattern
 
  ![Coordinator patter](https://github.com/viktorHbenitez/Basic-Coordinator-pattern/blob/master/Sketch/CoordinatorPatters.jpg)  
 

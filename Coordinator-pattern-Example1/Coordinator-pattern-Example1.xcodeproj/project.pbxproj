@@ -19,6 +19,7 @@
 		E47C4CD324FCACE00058E001 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4CD224FCACE00058E001 /* MainCoordinator.swift */; };
 		E47C4CD524FCB4230058E001 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4CD424FCB4230058E001 /* BuyViewController.swift */; };
 		E47C4CD724FCB4320058E001 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4CD624FCB4320058E001 /* CreateAccountViewController.swift */; };
+		E47C4CD924FCBF570058E001 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4CD824FCBF570058E001 /* BuyCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E47C4CD224FCACE00058E001 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E47C4CD424FCB4230058E001 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		E47C4CD624FCB4320058E001 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		E47C4CD824FCBF570058E001 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				E47C4CCE24FCA8470058E001 /* Coordinator.swift */,
 				E47C4CD024FCAB480058E001 /* Storyboarded.swift */,
 				E47C4CD224FCACE00058E001 /* MainCoordinator.swift */,
+				E47C4CD824FCBF570058E001 /* BuyCoordinator.swift */,
 				E47C4CB024FCA65F0058E001 /* ViewController.swift */,
 				E47C4CB224FCA65F0058E001 /* Main.storyboard */,
 				E47C4CB524FCA6610058E001 /* Assets.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47C4CD924FCBF570058E001 /* BuyCoordinator.swift in Sources */,
 				E47C4CCF24FCA8470058E001 /* Coordinator.swift in Sources */,
 				E47C4CD324FCACE00058E001 /* MainCoordinator.swift in Sources */,
 				E47C4CB124FCA65F0058E001 /* ViewController.swift in Sources */,

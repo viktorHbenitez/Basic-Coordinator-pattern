@@ -12,6 +12,7 @@ How to use the coordinator pattern in iOS apps
 
 [Hacking with swift] (https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)  
 
+### 3. Passing data between controllers
 
 ### 2. Navigation backwards 
 

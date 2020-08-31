@@ -12,6 +12,10 @@ class ViewController: UIViewController, Storyboarded {
   
   weak var coordinator: MainCoordinator?
   
+  @IBOutlet weak var sgmControl : UISegmentedControl!
+  
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     print("viewController")
@@ -19,7 +23,7 @@ class ViewController: UIViewController, Storyboarded {
   
   
   @IBAction func tappedBuy(){
-    coordinator?.buySubscription()
+    coordinator?.buySubscription(to: sgmControl.selectedSegmentIndex)
   }
   
   

@@ -13,7 +13,8 @@ class BuyCoordinator: Coordinator {
   var navigationController: UINavigationController
 
   // The child can tell the parent when work has finished.
-  weak var parentCoordinator: MainCoordinator?
+//  weak var parentCoordinator: MainCoordinator?
+  var iType : Int?
 
   init(navigationController: UINavigationController) {
     self.navigationController = navigationController
@@ -21,6 +22,7 @@ class BuyCoordinator: Coordinator {
   
   func start() {
     let vc = BuyViewController.instantiate()
+    vc.selectedProduct = iType
     vc.coordinator = self
     navigationController.pushViewController(vc, animated: true)
   }

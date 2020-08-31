@@ -29,10 +29,10 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     navigationController.pushViewController(vc, animated: false)
   }
   
-  func buySubscription() {
+  func buySubscription(to type : Int?) {
     let child = BuyCoordinator(navigationController: navigationController)
+    child.iType = type
     childCoordinators.append(child)
-    
     child.start()
   }
   

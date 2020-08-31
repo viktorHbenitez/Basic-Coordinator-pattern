@@ -12,9 +12,14 @@ class BuyViewController: UIViewController, Storyboarded {
   
   weak var coordinator: BuyCoordinator?
   
+  var selectedProduct : Int?
+
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    print("Segment selected", selectedProduct)
     // Do any additional setup after loading the view.
   }
   

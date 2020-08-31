@@ -2,7 +2,7 @@
 How to use the coordinator pattern in iOS apps
 
 
- ![Coordinator patter](https://github.com/viktorHbenitez/MVVM_RxSwift-Movies/blob/master/Sketch/CoordinatorPatters.jpg)  
+ ![Coordinator patter](https://github.com/viktorHbenitez/Basic-Coordinator-pattern/blob/master/Sketch/CoordinatorPatters.jpg)  
 
 ## Description:
 
